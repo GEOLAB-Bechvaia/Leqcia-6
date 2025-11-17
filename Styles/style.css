@@ -1,0 +1,36 @@
+.SS {
+	width: 350px;
+	height: 150px;
+	background-color: blue;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	color: white;
+}
+
+.rel {
+	width: 350px;
+	height: 150px;
+	background-color: salmon;
+	position: relative;
+	top: 200px;
+	left: 100px;
+	color: white;
+}
+
+.rel > span {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+header {
+	padding: 20px;
+	height: 40px;
+	background-color: #9a9aff;
+	color: white;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
+	width: 100%;
+}
